@@ -4,11 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "lite-server",
-    "build": "webpack",
-    "prod": "cross-env NODE_ENV=production webpack --env.prod=true",
-    "start": "concurrently \"npm run build\" \"npm run server\""
+    "start": "webpack-dev-server --hot"
   },
   "author": "Brijin",
   "license": "ISC",
